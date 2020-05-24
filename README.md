@@ -6,6 +6,10 @@ How-To back end documentation for end points
 
 # Base URL for Deployed API
 
+https://clhowto.herokuapp.com/
+https://clhowto.herokuapp.com/
+https://clhowto.herokuapp.com/
+
 # Endpoints
 
 | Request | URL               | Description                 |
