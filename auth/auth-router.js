@@ -93,5 +93,12 @@ function createToken(user) {
 
   return jwt.sign(payload, secret, options);
 }
+router.get("/users", (req, res) => {
+  Users.find()
+    .then((users) => {
+      res.json(users);
+    })
+    .catch((err) => res.send(err));
+});
 
 module.exports = router;
